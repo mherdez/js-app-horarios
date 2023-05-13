@@ -21,6 +21,36 @@ const ms9 = reticula.filter( materia => materia.grupoMatutino && materia.semestr
 
 
 
+// -----------------------------
+class Docente {
+
+  constructor( docente ) {
+    this.profesor = docente.profesor;
+    this.materias = docente.materias;
+  }
+
+  getTalleres() {
+    return console.log('No impartiendo talleres por el momento')
+  }
+}
+
+
+class DocentesDesarrollo extends Docente {
+
+  constructor( docente ) {
+    super( docente )
+    this.area = 'impartiendo talleres en el Area de desarrollo';
+  }
+
+  getTalleres() {
+    return console.log(this.area)
+  }
+
+}
+
+
+// -----------------------------
+
 const asignarMaterias = ( claveMaestro, asignaturas ) => {
   const profesor =  personal.find( nombre => nombre.clave == claveMaestro)
 
@@ -35,17 +65,25 @@ const asignarMaterias = ( claveMaestro, asignaturas ) => {
 }
 
 
-const manuel = asignarMaterias('398', ['aed-1285', 'aeb-1055'] )
-const ivan = asignarMaterias('000', ['scd-1023', 'scd-1022', 'scc-1010'])
+// const ivan = asignarMaterias('000', ['scd-1023', 'scd-1022', 'scc-1010'])
 
-console.log(ivan)
+// console.log(ivan)
 
 
-const verificarHorasGrupo = ( {profesor, materias} ) => {
-  const total = materias.map( materia => materia.horasTeoricas + materia.horasPracticas ).reduce( (acc, el) => acc + el)
-   if( total < profesor.horasMinimas ) return 'faltan horas, se llevan hasta el momento: ' + total + ' horas'
-   if ( total > profesor.horasMaximas ) return 'esta pasado, se llevan hasta el momento: ' + total + ' horas'
-   return 'esta en el rango, se llevan hasta el momento: ' + total + ' horas'
-}
+// const verificarHorasGrupo = ( {profesor, materias} ) => {
+//   const total = materias.map( materia => materia.horasTeoricas + materia.horasPracticas ).reduce( (acc, el) => acc + el)
+//    if( total < profesor.horasMinimas ) return 'faltan horas, se llevan hasta el momento: ' + total + ' horas'
+//    if ( total > profesor.horasMaximas ) return 'esta pasado, se llevan hasta el momento: ' + total + ' horas'
+//    return 'esta en el rango, se llevan hasta el momento: ' + total + ' horas'
+// }
 
-console.log(verificarHorasGrupo( ivan ))
+// console.log(verificarHorasGrupo( ivan ))
+
+
+
+
+const manuel = new DocentesDesarrollo( ( asignarMaterias('398', ['aed-1285', 'aeb-1055'] )) )
+manuel.getTalleres()
+
+const ivan  = new Docente( asignarMaterias('000', []))
+// ivan.getTalleres()

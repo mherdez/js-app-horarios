@@ -1,14 +1,12 @@
-
 const container = document.getElementById('app')
 
 export const setTemplate = ( materias ) => {
+
   const templateTable = document.getElementById('template-table').content
   const fragment = document.createDocumentFragment()
 
-
   const templateTbody = templateTable.getElementById('template-tbody').content
   const fragmentTbody = document.createDocumentFragment()
-
 
   materias.forEach( materia => {
     templateTbody.getElementById('asignatura').textContent = materia.asignatura
@@ -23,14 +21,15 @@ export const setTemplate = ( materias ) => {
 
     const clone = templateTbody.cloneNode(true);
     fragmentTbody.appendChild(clone)
+
   })
 
-  const clone = templateTable.cloneNode(true);
-  fragment.appendChild(clone)
+  const tbody = templateTable.querySelector('tbody')
+  tbody.appendChild(fragmentTbody)
 
+  const clone = templateTable.cloneNode(true);
+
+  fragment.appendChild(clone)
   container.appendChild(fragment)
 
 }
-
-
-

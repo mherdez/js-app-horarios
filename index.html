@@ -7,7 +7,44 @@
     <title>Horarios Tec</title>
   </head>
   <body>
-    <div id="app"></div>
+    <nav class='navbar bg-dark text-light py-3'>
+      <h1 class='mx-auto'>Horarios Tec</h1>
+    </nav>
+    <div id="app" class='container my-5'>
+
+    </div>
+    <template id="template-table">
+      <table class="table table-striped">
+        <thead>
+          <tr class='table-success'>
+            <th>Asignatura</th>
+            <th>Clave</th>
+            <th>Créditos</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Docente</th>
+          </tr>
+        </thead>
+        <tbody>
+          <template id="template-tbody">
+            <tr>
+              <td id='asignatura'>Asignatura</td>
+              <td id='clave'>Clave</td>
+              <td id='créditos'>Créditos</td>
+              <td id='lunes'>Lunes</td>
+              <td id='martes'>Martes</td>
+              <td id='miercoles'>Miércoles</td>
+              <td id='jueves'>Jueves</td>
+              <td id='viernes'>Viernes</td>
+              <td id='docente' class='table-warning'>Docente</td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+    </template>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

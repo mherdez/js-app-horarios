@@ -1,4 +1,7 @@
+import './styles.css'
 import {personal, reticula} from './getData.js'
+import  {setTemplate} from './table'
+
 
 const ms1 = reticula.filter( materia => materia.grupoMatutino && materia.semestre === 1);
 const ms3 = reticula.filter( materia => materia.grupoMatutino && materia.semestre === 3);
@@ -18,6 +21,7 @@ const ms9 = reticula.filter( materia => materia.grupoMatutino && materia.semestr
 
 // const aed1285 = ms1.find( clave => clave.clave == 'aed-1285'	)
 // const aeb1055	 = ms1.find( clave => clave.clave == 'aeb-1055' )
+
 
 
 
@@ -65,6 +69,7 @@ const asignarMaterias = ( claveMaestro, asignaturas ) => {
 }
 
 
+
 // const ivan = asignarMaterias('000', ['scd-1023', 'scd-1022', 'scc-1010'])
 
 // console.log(ivan)
@@ -82,8 +87,12 @@ const asignarMaterias = ( claveMaestro, asignaturas ) => {
 
 
 
-const manuel = new DocentesDesarrollo( ( asignarMaterias('398', ['aed-1285', 'aeb-1055'] )) )
-manuel.getTalleres()
+// const manuel = new DocentesDesarrollo( ( asignarMaterias('398', ['aed-1285', 'aeb-1055'] )) )
+// manuel.getTalleres()
 
-const ivan  = new Docente( asignarMaterias('000', []))
+// const ivan  = new Docente( asignarMaterias('000', []))
 // ivan.getTalleres()
+
+const manuel398 = asignarMaterias('398', [])
+
+document.addEventListener('DOMContentLoaded', setTemplate(ms1))

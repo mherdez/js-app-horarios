@@ -1,0 +1,248 @@
+[
+  {
+   "docente": "Ayuso Cervera Jesús Emmanuel ",
+   "horasMinimas": 15,
+   "horasMaximas": 17,
+   "lunes":     [15,21],
+   "martes":    [15,21],
+   "miercoles": [15,21],
+   "jueves":    [15,21],
+   "viernes":   [15,20]
+  },
+  {
+   "docente": "Cab Chan José Ramón ",
+   "horasMinimas": 4,
+   "horasMaximas": 5,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Carpizo Acuña Cecilio Román ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [7,15],
+   "martes":    [7,15],
+   "miercoles": [7,15],
+   "jueves":    [7,15],
+   "viernes":   [7,15]
+  },
+  {
+   "docente": "Cervera Castro Aracely del Carmen ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [12,20],
+   "martes":    [12,20],
+   "miercoles": [12,20],
+   "jueves":    [12,20],
+   "viernes":   [11,19]
+  },
+  {
+   "docente": "Cervera Palí Humberto",
+   "horasMinimas": 4,
+   "horasMaximas": 5,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Cervera Sabido Mirna Irene",
+   "horasMinimas": 16,
+   "horasMaximas": 16,
+   "lunes":     [12,16],
+   "martes":    [12,16],
+   "miercoles": [12,16],
+   "jueves":    [12,16]
+  },
+  {
+   "docente": "Chuc López Jorge Luis",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Cruz Pinzón Wilberth Eduardo ",
+   "horasMinimas": 12,
+   "horasMaximas": 16,
+   "lunes":     [7,11],
+   "martes":    [7,11],
+   "miercoles": [7,11],
+   "jueves":    [7,11],
+   "viernes":   [7,11]
+  },
+  {
+   "docente": "De la Cruz Muñoz Vicente",
+   "horasMinimas": 4,
+   "horasMaximas": 5,
+   "lunes":     [7,15],
+   "martes":    [7,15],
+   "miercoles": [7,15],
+   "jueves":    [7,15],
+   "viernes":   [7,15]
+  },
+  {
+   "docente": "Flores Redondo Salvador Adrián ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [9,17],
+   "martes":    [9,17],
+   "miercoles": [9,17],
+   "jueves":    [9,17],
+   "viernes":   [9,17]
+  },
+  {
+   "docente": "García Reyes Alicia Guadalupe ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Hernández Ancona Josefa del Carmen ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Hernández Meza Manuel Enrique ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Lanz Vera Iván A.",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [9,17],
+   "martes":    [9,17],
+   "miercoles": [9,17],
+   "jueves":    [9,17],
+   "viernes":   [9,17]
+  },
+  {
+   "docente": "May Salazar Laura",
+   "horasMinimas": 12,
+   "horasMaximas": 16,
+   "lunes":     [12,16],
+   "martes":    [12,16],
+   "miercoles": [12,16],
+   "jueves":    [12,16],
+   "viernes":   [12,16]
+  },
+  {
+   "docente": "Moncada Bolón Juan Jesús",
+   "horasMinimas": 10,
+   "horasMaximas": 10,
+   "martes":    [7,12],
+   "jueves":    [7,12]
+  },
+  {
+   "docente": "Ortiz Arjona Jonathan Heli ",
+   "horasMinimas": 8,
+   "horasMaximas": 10,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Pacheco Can Elías Elías Gabriel Fidel ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Pacheco Can Eliceo Eliceo Manuel Martín",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [7,15],
+   "martes":    [7,15],
+   "miercoles": [7,15],
+   "jueves":    [7,15],
+   "viernes":   [7,15]
+  },
+  {
+   "docente": "Ramírez Santamaria Jorge Enrique ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [7,15],
+   "martes":    [7,15],
+   "miercoles": [7,15],
+   "jueves":    [7,15],
+   "viernes":   [7,15]
+  },
+  {
+   "docente": "Seca Escalante Rosa Mauricia ",
+   "horasMinimas": 16,
+   "horasMaximas": 20,
+   "lunes":     [7,13],
+   "martes":    [7,13],
+   "miercoles": [7,13],
+   "jueves":    [7,13],
+   "viernes":   [7,13]
+  },
+  {
+   "docente": "Soler Gonzalez  Cristian",
+   "horasMinimas": 4,
+   "horasMaximas": 5,
+   "lunes":     [8,16],
+   "martes":    [8,16],
+   "miercoles": [8,16],
+   "jueves":    [8,16],
+   "viernes":   [8,16]
+  },
+  {
+   "docente": "Suárez Améndola Rosario de Fátima ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [7,15],
+   "martes":    [7,15],
+   "miercoles": [7,15],
+   "jueves":    [7,15],
+   "viernes":   [7,15]
+  },
+  {
+   "docente": "Vilchis Fuentes Julio Cesar ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [12,20],
+   "martes":    [12,20],
+   "miercoles": [12,20],
+   "jueves":    [12,20],
+   "viernes":   [12,20]
+  },
+  {
+   "docente": "Zetina Saravia Rubén Martín ",
+   "horasMinimas": 20,
+   "horasMaximas": 24,
+   "lunes":     [13,21],
+   "martes":    [13,21],
+   "miercoles": [13,21],
+   "jueves":    [13,21],
+   "viernes":   [13,21]
+  }
+ ]
